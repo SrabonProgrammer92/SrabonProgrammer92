@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Srabon Programmer</title>
+    
+    
+        <meta name="description" content="I Am A Student Currently Exploring The Fascinating World Of Web Development And Game Design As An Artificial Intelligence Engineer, Passionate About Creating Interactive Websites And Engaging Games That Inspire And Educate Others.">
+    <meta name="keywords" content="srabon, programmer, coding, software development, tech">
+    <meta name="author" content="Srabon Programmer">
+
+    <meta property="og:title" content="Srabon Programmer - Learn Programming and More">
+    <meta property="og:description" content="Explore Tutorials, Guides, And Resources For Aspiring Programmers And Developers.">
+    <meta property="og:image" content="https://i.imgur.com/BnnDJxY.png">
+    <meta property="og:url" content="https://srabonprogrammer93.netlify.app">
+    
+    <meta property="og:type" content="website">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Srabon Programmer - Learn Programming and More">
+    <meta name="twitter:description" content="Discover Tutorials And Insights On Coding, Software Development, And Tech Trends.">
+    <meta name="twitter:image" content="https://i.imgur.com/BnnDJxY.png">
+    
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.1/css/all.min.css">
+    </head>
+    
+    <style>
+        
+        @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap');
+
+body {
+    font-family: 'Playfair Display', serif;
+    scroll-behavior: smooth;
+    margin: 0;
+    background-image: url("https://images.pexels.com/photos/1420440/pexels-photo-1420440.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+}
+
+.botla {
+    display: flex;
+    justify-content: center;
+    height: auto;
+    width: 125px;
+    border-radius: 50%;
+    padding: 10px;
+    margin-bottom: 10px;
+    max-width: 250px;
+    background-color: red;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    justify-content: center;
+}
+
+.search-kor {
+    margin-left: 10px;
+    position: relative;
+}
+
+.search-kor input {
+    width: 200px;
+    font-size: 16px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    border: 2px solid black;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    transition: box-shadow 0.3s ease;
+}
+
+.search-kor input:focus {
+    outline: none;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+}
+
+.search-kor i {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    color: gray;
+    transition: color 0.3s ease;
+}
+
+.search-kor input:hover + i,
+.search-kor input:focus + i {
+    color: crimson;
+}
+
+.u {
+    color: white;
+}
+
+.si {
+    background-image: url("https://www.everwallpaper.co.uk/cdn/shop/products/11golden-autumn-in-forest-mural-wallpaper-plain.jpg?v=1675231892");
+    text-align: center;
+    color: black;
+    font-weight: 800;
+    padding: 30px;
+    margin: 0;
+}
+
+a {
+    color: crimson;
+}
+
+a:hover {
+    color: green;
+}
+
+.borobhai {
+    background-color: black;
+    text-align: center;
+    padding: 20px 0px;
+    margin-bottom: 20px;
+    top: 0;
+    z-index: 100;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.srabon {
+    color: white;
+    padding: 1px 20px;
+    margin: 0px 10px;
+    border: 2px solid white;
+    border-radius: 100px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.srabon:hover {
+    background-color: white;
+    color: black;
+}
+
+section {
+    padding: 20px;
+    margin: 10px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    min-height: 200px;
+    opacity: 0;
+    animation: fadeInUp 1s forwards;
+}
+
+h2 {
+    color: red;
+}
+
+@keyframes fadeInUp {
+    from {
+        transform: translateY(20px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.ki {
+    color: black;
+    text-align: center;
+}
+
+img {
+    width: 100%; 
+    height: auto;
+    border-radius: 20px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    transition: transform 0.3s ease; 
+}
+
+audio {
+    background-color: red;
+    padding: 2px;
+    border-radius: 30px;
+    display: inline-block;
+}
+
+    .have {
+        color: green;
+        background: white;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        width: 258px;
+        font-size: 16px;
+        border: 5px double black;
+        transition: box-shadow 0.3s ease;
+    }
+
+    .form-button {
+        background-color: crimson;
+        color: white;
+        padding: 10px 15px;
+        border: none;
+        border-radius: 5px;
+        font-size: 16px;
+        cursor: pointer;
+        margin-top: 10px;
+        transition: background-color 0.3s, transform 0.3s;
+    }
+
+    .form-button:hover {
+        background-color: darkred;
+        transform: scale(1.05);
+    }   
+
+footer {
+    background-color: black;
+    padding: 5px 0;
+}
+
+.button {
+    font-family: 'Playfair Display', serif;
+    background-color: yellow;
+}
+
+.sesh {
+    color: white;
+    text-align: center;
+}
+
+.maro {
+    color: red;
+}
+
+.charo {
+    color: skyblue;
+}
+        
+    </style>
+<body>
+    
+    <h1 class="si">
+        <div class="header">
+            
+            
+            <img class="botla" src="https://i.imgur.com/BnnDJxY.png" alt="Logo">
+        </div>
+        <div class="search-kor">
+            <input type="text" id="searchInput" placeholder="Search...">
+            <i class="fa fa-search" onclick="searchText()"></i>
+        </div>
+    </h1>
+        
+    <nav class="borobhai">
+        <a href="#home" class="srabon">Home</a>
+        <a href="#about" class="srabon">About</a>
+        <a href="#contact" class="srabon">Contact</a>
+        <a href="#srabon-programmer" class="srabon">Srabon Programmer</a>
+        <a href="#contact-form" class="srabon">Mail</a>
+    </nav>
+        
+    <section id="home">
+        <h2>Welcome to Srabon Programmer's World:</h2>        
+        <p>Guys,,,<br> 
+            How Are All Of You? I Hope, So Much Better. I Have Created A Channel On YouTube, Called Srabon Programmer. In This YouTube Channel You Can Learn Coding Language And Learn About Different Types Of Code Projects. So What Is The Delay, Right Now Click On The Srabon Programmer Shown At The Top.<br> 
+            🥰Thanks🥰
+        </p>
+    </section>
+
+    <section id="about">
+        <h2>About Me:</h2>
+        <p>Hi, I’m Srabon! A passionate Programmer Who Loves To Explore Different Technologies And Share Knowledge Through My YouTube Channel.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact:</h2>
+        <p>If You Have Any Questions Or Collaboration Ideas, Feel Free To Reach Out To Me! My Email Or Phone: <mark>diamondteam157@gmail.com Or +8801301841691</mark></p>
+    </section>
+    
+    <section id="srabon-programmer">
+        <h2 class="ki">Srabon Programmer:</h2>
+        <img src="https://i.imgur.com/BnnDJxY.png">
+        <audio controls loop>
+            <source src="Bhai.mp3" type="audio/mpeg">
+        </audio>
+    </section>
+    
+    <section id="contact-form">
+    <h2>Mail To Me:</h2>
+    <form class="have" action="mailto:diamondteam157@gmail.com" method="post" enctype="text/plain">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="address">Address:</label><br>
+        <input type="text" id="address" name="address" required><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <input type="submit" value="Submit" class="form-button">
+        <input type="reset" value="Reset" class="form-button">
+    </form>
+</section>
+
+   <div>
+        <button class="button" onclick="openNewPage()">Next Page</button>
+        </div>
+       </section>
+    
+    <script>
+        
+        function searchText() {
+    const input = document.getElementById('searchInput').value.toLowerCase();
+    const sections = document.querySelectorAll('section');
+    
+    const keywords = [
+        "welcome", "srabon", "programmer", "coding", "language", "learn",
+        "about", "passionate", "explore", "technologies", "knowledge",
+        "contact", "questions", "collaboration", "ideas", "email", 
+        "phone", "diamondteam157@gmail.com", "+8801301841691", "mail"
+    ];
+    
+    // Clear previous markings
+    clearMarkings(sections);
+    
+    if (!keywords.includes(input)) {
+        alert("We Couldn't Find The Word You Provided. Try Searching For: Home, About, Contact, Shrabon Programmer, or Mail.");
+        return;
+    }
+    
+    let found = false;
+    
+    sections.forEach(section => {
+        const text = section.innerText.toLowerCase();
+        if (text.includes(input)) {
+            section.scrollIntoView({ behavior: 'smooth' });
+            markText(section, input);
+            found = true;
+        }
+    });
+    
+    if (!found) {
+        let sectionId;
+        switch (input) {
+            case 'home':
+                sectionId = 'home';
+                break;
+            case 'about':
+                sectionId = 'about';
+                break;
+            case 'contact':
+                sectionId = 'contact';
+                break;
+            case 'srabon programmer':
+                sectionId = 'srabon-programmer';
+                break;
+        }
+        
+        if (sectionId) {
+            const section = document.getElementById(sectionId);
+            section.scrollIntoView({ behavior: 'smooth' });
+            markText(section, input);
+        }
+    }
+}
+
+function clearMarkings(sections) {
+    sections.forEach(section => {
+        section.innerHTML = section.innerHTML.replace(/<mark>(.*?)<\/mark>/g, '$1');
+    });
+}
+
+function markText(section, searchTerm) {
+    const html = section.innerHTML.replace(/<mark>(.*?)<\/mark>/g, '$1');
+    const regex = new RegExp(`(${searchTerm})`, 'gi'); 
+    section.innerHTML = html.replace(regex, '<mark>$1</mark>'); 
+}
+
+function openNewPage() {
+    window.location.href = "style.html";
+}
+
+document.getElementById('searchInput').addEventListener('keydown', function(event) {
+    if (event.key === 'Enter') {
+        searchText();
+    }
+    
+});
+
+document.querySelector('.fa-search').addEventListener('click', searchText);
+
+document.getElementById('searchInput').addEventListener('input', function() {
+    clearMarkings(document.querySelectorAll('section'));
+    
+});
+       
+    </script>
+    
+    <footer>
+        <p class="sesh">Connect Me With: <a href="https://youtube.com/@SrabonProgrammer92" class="maro">YouTube</a> | <a href="http://facebook.com/DiamonTeam71" class="charo">Facebook</a></p>
+    </footer>
+</body>
+</html>
